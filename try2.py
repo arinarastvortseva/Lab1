@@ -11,7 +11,7 @@ new_word = False
 
 text = ''
 
-with open('file2', encoding="utf-8") as csv_file:
+with open('steam_description_data.csv', encoding="utf-8") as csv_file:
     reader = csv.reader(csv_file)
     for row in reader:
         for i in range(len(row)):
